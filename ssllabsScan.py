@@ -57,6 +57,12 @@ def getEndpointData(host, s):
 	data = request(path, payload)
 	pprint(data)
 
+def checkMyServers():
+	"""This method takes a CSV file of an agency's servers
+		and performs a Qualys Server Test on each one.  
+		Returns a CSV file with the results."""
+
+
 def test():
 	info()
 
