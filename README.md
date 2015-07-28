@@ -21,6 +21,10 @@ data = ssllabsscanner.resultsFromCache("www.qaulys.com")
 
 data now contains a JSON object that can be parsed for your needs.
 
+Parse the object to determine your grade:
+
+print(data['endpoints'][0]['grade])
+
 For retrieving the data from a new scan:
 
 data = ssllabsscanner.newScan("www.qualys.com")
