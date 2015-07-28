@@ -9,7 +9,7 @@ Developed using Python 2.7.10
 
 Use:
 
-Download module and navigate inside ssllabs.py folder.
+Download module and navigate inside ssllabs folder.
 
 Then:
 
