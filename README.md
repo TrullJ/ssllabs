@@ -5,7 +5,7 @@ Dependencies:
 
 Requires the third-party Python Requests library - http://docs.python-requests.org/en/latest/
 
-Developed using Python 2.7.10
+Developed with support of Python 2/3.
 
 Use:
 
@@ -17,13 +17,13 @@ import ssllabsscanner
 
 For results from cache:
 
-data = ssllabsscanner.resultsFromCache("www.qaulys.com")
+data = ssllabsscanner.resultsFromCache("www.qualys.com")
 
 data now contains a JSON object that can be parsed for your needs.
 
 Parse the object to determine your grade:
 
-print(data['endpoints'][0]['grade])
+print(data['endpoints'][0]['grade'])
 
 For retrieving the data from a new scan:
 
